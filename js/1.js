@@ -26,7 +26,7 @@
     }
 
     var $=function (id,content) {
-        return F(id,content);
+        return new F(id,content);
     }
 
 
